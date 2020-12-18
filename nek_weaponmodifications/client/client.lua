@@ -3,11 +3,11 @@ Citizen.CreateThread(function()
 	 SetWeaponDamageModifier('WEAPON_UNARMED',0.5) -- unarmed
 	 SetWeaponDamageModifier('WEAPON_NIGHTSTICK',0.25) -- nightstick
 	 SetWeaponDamageModifier('WEAPON_BAT',0.25) -- bat
-     SetWeaponDamageModifier('WEAPON_FLASHLIGHT',0.15) -- flashligt
-     RemoveAllPickupsOfType(0xDF711959) -- carbine rifle
-     RemoveAllPickupsOfType(0xF9AFB48F) -- pistol
-     RemoveAllPickupsOfType(0xA9355DCD) -- pumpshotgun
-	Citizen.Wait(0)
+     	 SetWeaponDamageModifier('WEAPON_FLASHLIGHT',0.15) -- flashligt
+     	 RemoveAllPickupsOfType(0xDF711959) -- carbine rifle
+	 RemoveAllPickupsOfType(0xF9AFB48F) -- pistol
+     	 RemoveAllPickupsOfType(0xA9355DCD) -- pumpshotgun
+	 Citizen.Wait(500)
 	end
 end)
 
